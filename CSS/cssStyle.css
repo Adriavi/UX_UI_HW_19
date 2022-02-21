@@ -1,0 +1,177 @@
+
+
+
+h1 {
+  text-align-last: center;
+  color: rgb(101, 48, 187);
+  margin-block-end:auto;
+ 
+}
+
+.uxtext {
+  text-align: center;
+  font-size: large;
+}
+
+
+.inline-block  {
+  width: 500px;
+  height: 200px;
+  
+  margin: 6px;
+  border-radius: 5%
+
+}
+#headline {
+  
+  background-color: rgba(203, 142, 228, 0.808);
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 100;
+  padding: 30px;
+}
+
+
+
+.nav {
+  background-color: #20212e6c; 
+  vertical-align: top;
+  list-style-type: none;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+.nav li a {
+  color: rgb(221, 206, 217);
+}
+.heroimg {
+  background-color: #27294148;
+  text-align: end;
+  height: 600px;
+  padding: 25px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.content{
+background-color: rgba(1, 0, 2, 0.959);
+}
+
+.profile {
+  width: 500px;
+  display: inline-block;
+  margin-block-end: auto;
+  background-color: #9198e50a;
+
+}
+
+
+
+.Agatha1 {
+  display: block;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  background-color: rgba(105, 90, 205, 0);
+}
+.flex_item {
+  padding: 10px;
+  margin: 10px;
+
+  
+}
+.flex {
+  display: flex;
+  margin: 1px;
+  width: 90%;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+column {
+  display: flex;
+  height: 1200px;
+  width: 800px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.casestudy1, .casestudy2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.casestudy1 {
+  margin-top:20px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.casestudy2{
+  background-image: url("../images/soup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.Artly2 {
+  align-items: flex-end;
+
+}
+  
+
+.author {
+  text-align: center;
+}
+
+.text p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+/* These styles are just used to create our mock get started form */
+section {
+  background-color: rgba(135, 48, 161, 0.274);
+  padding: 25px;
+  background-image: url("../images/website\ background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  width: 200px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 4%;
+  -webkit-appearance: none;
+  /* max-width: 330px; */
+  box-sizing: border-box;
+}
+h3 {
+  margin: 10px 0px;
+}
+.submit {
+  margin-top: 20px;
+}
