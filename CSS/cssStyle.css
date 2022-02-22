@@ -25,7 +25,7 @@ h1 {
 #headline {
   
   background-color: rgba(203, 142, 228, 0.808);
-  position: absolute;
+  position: fixed;
   top: 100px;
   left: 200px;
   z-index: 100;
@@ -66,10 +66,34 @@ background-color: rgba(1, 0, 2, 0.959);
   width: 500px;
   display: inline-block;
   margin-block-end: auto;
-  background-color: #9198e50a;
+  background-color: #1010140a;
 
 }
+.cursor {
+  width: 40px;
+  text-align: end;
+}
+ 
+}
 
+
+}
+.r {
+  color: blueviolet;
+  cursor: pointer;
+  width: 170px;
+  display: inline-block;
+  margin-block-end: auto;
+  text-align-last: right;
+  justify-content: space-between;
+  background-color: azure;
+  transition:background-color 1s ease
+} 
+
+.r: :hover {
+  background-color: #3642c00a;
+
+}
 
 
 .Agatha1 {
@@ -95,7 +119,7 @@ background-color: rgba(1, 0, 2, 0.959);
   justify-content: space-around;
   
 }
-column {
+.column {
   display: flex;
   height: 1200px;
   width: 800px;
@@ -103,31 +127,13 @@ column {
   margin: 0 auto;
 }
 
-.casestudy1, .casestudy2 {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 20px;
-}
-.casestudy1 {
-  margin-top:20px;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-.casestudy2{
-  background-image: url("../images/soup.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
 .Artly2 {
   align-items: flex-end;
 
 }
+
   
 
 .author {
