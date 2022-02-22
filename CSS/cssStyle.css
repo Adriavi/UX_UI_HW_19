@@ -14,25 +14,54 @@ h1 {
 }
 
 
-.inline-block  {
-  width: 500px;
-  height: 200px;
-  
-  margin: 6px;
-  border-radius: 5%
-
+.pointer  {
+  display: flex;
+  width: 130px;
+  height: 100px;
+  padding: 5px;
+  animation: floating 2s ease-in-out infinite;
+ 
+ 
+ 
 }
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+
+
+
 #headline {
   
   background-color: rgba(203, 142, 228, 0.808);
   position: fixed;
-  top: 100px;
+  top: 50px;
   left: 200px;
   z-index: 100;
   padding: 30px;
+  justify-content:center;
 }
 
-
+.resume {
+  color: rgb(20, 24, 27);
+  width: 300px;
+  background-color: rgb(82, 57, 82);
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  height: 50px;
+  margin-top: 50px;
+  justify-content: space-around;
+  transition: background-color 0.5s ease;
+}
+.resume:hover {
+  background-color: #4ce4f8;
+}
 
 .nav {
   background-color: #20212e6c; 
@@ -69,31 +98,8 @@ background-color: rgba(1, 0, 2, 0.959);
   background-color: #1010140a;
 
 }
-.cursor {
-  width: 40px;
-  text-align: end;
-}
- 
-}
 
 
-}
-.r {
-  color: blueviolet;
-  cursor: pointer;
-  width: 170px;
-  display: inline-block;
-  margin-block-end: auto;
-  text-align-last: right;
-  justify-content: space-between;
-  background-color: azure;
-  transition:background-color 1s ease
-} 
-
-.r: :hover {
-  background-color: #3642c00a;
-
-}
 
 
 .Agatha1 {
