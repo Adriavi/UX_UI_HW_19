@@ -93,7 +93,30 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: aliceblue;
 
 }
+#button1 {
+  background-color: rgb(82, 36, 83);
+}
 
+div {
+  margin: 15px;
+}
+
+.hideMe {
+ background-color: red;
+ height: 150px;
+ width: 150px;
+ text-align: end;
+ display: inline-block
+ ;
+}
+.cssChange {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+.gif {
+  width: 600px;
+}
 .profile {
   width: 500px;
   display: inline-block;

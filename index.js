@@ -1,7 +1,8 @@
-//this is mi first JavaScript code 
-console.log(' HOLA ADRIANA');
-$("h1").css("color","red");
+ 
+ 
+ //this is mi first JavaScript code 
+ console.log(' HOLA ADRIANA your file is super new ');
 
-$(".resume").css("color","blue");
-
-$("headline").html("Hello");
+ $('#button1').on("click", function(){
+    $('.hideMe').slideToggle();
+  });
