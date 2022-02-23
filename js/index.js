@@ -1,5 +1,8 @@
-// Create a variable below
-var helloWorld = "Hello World!";
+// Use jQuery to target the <h1> tag and make it red.
+$("h1").css("color", "red");
 
-// Console.log() your variable here.
-console.log(helloWorld);
+// Use jQuery to target the blue class and make it blue.
+$(".blue").css("color", "blue");
+
+// Use jQuery to target the addMe ID and change its HTML to Hello.
+$("#addMe").html('Hello');

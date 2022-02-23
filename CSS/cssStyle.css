@@ -39,7 +39,7 @@ h1 {
 #headline {
   
   background-color: rgba(203, 142, 228, 0.808);
-  position: fixed;
+  position: absolute;
   top: 50px;
   left: 200px;
   z-index: 100;
@@ -89,6 +89,9 @@ h1 {
 
 .content{
 background-color: rgba(1, 0, 2, 0.959);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue;
+
 }
 
 .profile {
@@ -136,11 +139,24 @@ background-color: rgba(1, 0, 2, 0.959);
 
 
 .Artly2 {
-  align-items: flex-end;
+  display: flex;
+  margin: 1px;
+  width: 30%;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: space-around;
+  }
 
 }
 
-  
+  .London {
+    display: flex;
+  margin: 1px;
+  width: 30%;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: space-around;
+  }
 
 .author {
   text-align: center;
@@ -152,14 +168,19 @@ background-color: rgba(1, 0, 2, 0.959);
 }
 .text h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2b133b;
+ 
 }
 .text h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2b133b;
 }
 
-
-
-
+.Skills {
+  color: #3a1549;
+  text-align: center;
+  font-size: 100px;
+}
 
 
 /* These styles are just used to create our mock get started form */
